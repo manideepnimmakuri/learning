@@ -1,9 +1,9 @@
-### ANDROID 
+# ANDROID 
 
 ##What is embedded system?
 
   the system whic is designed to do specific task is known as embedded system.
-##Advant
+##Advantages
 
 cost efficiency
 quality 

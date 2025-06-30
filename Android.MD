@@ -16,13 +16,13 @@
 ## types of embeddeed system
 
 1. **saftey-critical , non-complex application**
- It is used handle critial jobs
- uses priority based scheduling
- runs on RTOS (example : FreeRTOS)
+ -It is used handle critial jobs
+ -uses priority based scheduling
+ -runs on RTOS (example : FreeRTOS)
 2.**non safety ,complex application** 
- it handles featues-rich, non time critical tasks 
- it uses fair schedling process
- runs on general purpose os ( linux,android)
+ -it handles featues-rich, non time critical tasks 
+ -it uses fair schedling process
+ -runs on general purpose os ( linux,android)
 
 ## what does embedded android engineer does?
 

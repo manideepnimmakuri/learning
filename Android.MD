@@ -65,3 +65,33 @@ for embedded system , a regular board is taken and unwanted ports (or) pheripher
     |     (MMU,VM,PM,IPC)        |
     |                            |
     +----------------------------+
+
+## Application layer
+
+ - It is the top layer uses the apps like (firefox,texteditor).
+ - These interact with OS through system calls(via libraies).
+
+## services layer
+
+ - in Linux,the services layer refers to background processes and demons that provides core functionality to the system and applications.
+
+## Libraries Layer
+
+ - this layer consists of shared libraries that provides pre-written functions and APIs for applications and services to use.
+
+## system call interface
+
+ - The gateway between user space and kernel space.
+ - it is used file I/O (open(),write(),read(),close(),etc.
+
+## driver
+
+ - It is the code which is used to interface the OS with hardware peripheral.
+
+## Linux Os Base Layer
+
+ - It is responsible for system-level opeation 
+ - MMU(Memory Management Unit):- Translates vitual to physical memory
+ - VM( Virtual Memory):-Manages memory allocation,paging,swap.
+ - PM(process management):-Process scheduling,context switching.
+ - IPC(Inter-process communication):-pipes,semaphores,message queues,shared memory.

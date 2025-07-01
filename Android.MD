@@ -41,15 +41,15 @@ for embedded system , a regular board is taken and unwanted ports (or) pheripher
 
     +----------------------------+
     |                            |
-    | Application                |
+    |     Application            |
     |                            |
     +----------------------------+
     |                            |
-    |services                    |
+    |       services             |
     |                            |
     +----------------------------+
     |                            |
-    |libraries                   |
+    |       libraries            |
     |                            |
     + ---------------------------+
     |                            |
@@ -57,11 +57,11 @@ for embedded system , a regular board is taken and unwanted ports (or) pheripher
     |                            |
     +----------------------------+
     |                            |
-    |driver                      |
+    |         driver             |
     |                            |
     +----------------------------+
     |                            |
-    | Linux OS Base              |
-    |(MMU,VM,PM,IPC)             |
+    |      Linux OS Base         |
+    |     (MMU,VM,PM,IPC)        |
     |                            |
     +----------------------------+

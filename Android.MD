@@ -37,3 +37,31 @@ for embedded system , a regular board is taken and unwanted ports (or) pheripher
  - It has low memory killer :- when multiple process runs at a time then for better perforance android kills low priority process 
  - It uses Binder IPC instead of V IPc
 
+## LINUX ARCHITURE
+
+    +----------------------------+
+    |                            |
+    | Application                |
+    |                            |
+    +----------------------------+
+    |                            |
+    |services                    |
+    |                            |
+    +----------------------------+
+    |                            |
+    |libraries                   |
+    |                            |
+    + ---------------------------+
+    |                            |
+    | system call interface      |
+    |                            |
+    +----------------------------+
+    |                            |
+    |driver                      |
+    |                            |
+    +----------------------------+
+    |                            |
+    | Linux OS Base              |
+    |(MMU,VM,PM,IPC)             |
+    |                            |
+    +----------------------------+

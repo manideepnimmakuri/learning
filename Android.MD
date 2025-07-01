@@ -19,6 +19,7 @@
  - It is used handle critial jobs
  - uses priority based scheduling
  - runs on RTOS (example : FreeRTOS)
+
 2.**non safety ,complex application** 
  - it handles featues-rich, non time critical tasks 
  - it uses fair schedling process

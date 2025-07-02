@@ -17,27 +17,27 @@
 
 1. **saftey-critical , non-complex application**
  - It is used handle critial jobs
- - uses priority based scheduling
- - runs on RTOS (example : FreeRTOS)
+ - Uses priority based scheduling
+ - Runs on RTOS (example : FreeRTOS)
 
 2.**non safety ,complex application** 
- - it handles featues-rich, non time critical tasks 
- - it uses fair schedling process
- - runs on general purpose os ( linux,android)
+ - It handles multiple features , non time critical tasks 
+ - It uses fair scheduling process
+ - Runs on general purpose os ( Linux,Android)
 
-## what does embedded android engineer does?
+## What does embedded android engineer does?
 
-for embedded system , a regular board is taken and unwanted ports (or) pheripherals are removed. so as a embedded engineer we need to build custom OS from the general OS.
+For embedded system , a regular board is taken and unwanted ports (or) peripherals are removed. So as an embedded engineer we need to build custom OS from the general OS.
 
 ## Android 
- - it is started as camera OS , acquired in 2005
- - it uses Bionic c library
- - it requres less memory and CPU hungry
- - it uses CFS scheduling
- - It has low memory killer :- when multiple process runs at a time then for better perforance android kills low priority process 
- - It uses Binder IPC instead of V IPc
+ - It is started as camera OS , acquired in 2005
+ - It uses Bionic C library
+ - It requires less memory and CPU hungry
+ - It uses CFS scheduling
+ - It has low memory killer :- when multiple processes runs at a time then for better performance android kills low priority processes. 
+ - It uses Binder IPC instead of V IPC
 
-## LINUX ARCHITURE
+## LINUX ARCHITECTURE
 
     +----------------------------+
     |                            |

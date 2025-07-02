@@ -2,7 +2,7 @@
 
 ## What is embedded system?
 
-  the system which is designed to do specific task is known as embedded system.
+  the system which is designed to do specific task is known as embedded system which include custom hardware and software.
 ## Advantages
 
 - Cost efficiency

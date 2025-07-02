@@ -32,7 +32,7 @@ For embedded system , a regular board is taken and unwanted ports (or) periphera
 ## Android 
  - It is started as camera OS , acquired in 2005
  - It uses Bionic C library
- - It requires less memory and CPU hungry
+ - It requires less memory and high CPU hungry
  - It uses CFS scheduling
  - It has low memory killer :- when multiple processes runs at a time then for better performance android kills low priority processes. 
  - It uses Binder IPC instead of V IPC

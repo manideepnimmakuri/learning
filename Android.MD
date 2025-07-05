@@ -37,7 +37,7 @@ For embedded system , a regular board is taken and unwanted ports (or) periphera
  - It has low memory killer :- when multiple processes runs at a time then for better performance android kills low priority processes. 
  - It uses Binder IPC instead of V IPC
 
-## LINUX ARCHITECTURE
+
 
     +----------------------------+
     |                            |

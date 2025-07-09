@@ -29,6 +29,23 @@ Bitwise operators allow us to:
 
 ## ✅ AND (`&`) Operator
 
+
+The **AND** (`&`) operator returns `1` only if **both bits are 1**; otherwise, it returns `0`.
+
+Usage in embedded system
+- checks is the status bit is high or not
+- clears the status bit to update the status.
+- 
+## 📊 AND Operator Truth Table
+
+| A (bit) | B (bit) | A & B |
+|---------|---------|--------|
+|   0     |   0     |   0    |
+|   0     |   1     |   0    |
+|   1     |   0     |   0    |
+|   1     |   1     |   1    |
+
+
 Used to **check** or **clear** specific bits.
 
 
@@ -69,4 +86,85 @@ void display(int num){
     }
     printf("\n");
 }
+```
 
+```c
+#include<stdio.h>
+
+void display(int);
+
+int main(){
+        int num,pos;
+        printf("enter the number\n");
+        scanf("%d",&num);
+        printf("enter the position\n");
+        scanf("%d",&pos);
+        printf("entered number :%d\t",num);
+        display(num);
+        num=num&~(1<<pos);
+        printf("number after clearing the %d bit in %d\t",pos,num);
+        display(num);
+}
+
+void display(int x){
+        for(int i=31;i>=0;i--){
+                if(x&(1<<i))
+                        printf("1");
+                else
+                        printf("0");
+                if(i%8==0)
+                        printf(" ");
+        }
+        printf("\n");
+}
+```
+## ✅ OR (`|`) Operator
+
+## 📊 OR Operator Truth Table
+
+The **OR** (`|`) operator returns `1` if **at least one bit is 1**; otherwise, it returns `0`.
+
+| A (bit) | B (bit) | A \| B |
+|---------|---------|--------|
+|   0     |   0     |   0    |
+|   0     |   1     |   1    |
+|   1     |   0     |   1    |
+|   1     |   1     |   1    |
+
+usage  in embedded system
+- update the status bit to high (1) after the modification.
+
+program to clear specific bit in a number
+
+```c
+
+#include<stdio.h>
+
+void display(int x);
+
+int main(){
+        int num,pos;
+        printf("enter the number\n");
+        scanf("%d",&num);
+        printf("enter the position\n");
+        scanf("%d",&pos);
+        printf("entered number :%d\t",num);
+        display(num);
+        num=num|(1<<pos);
+        printf("number after setting %d pos bit is %d\n",pos,num);
+        display(num);
+}
+
+void display(int num){
+        for(int i=31;i>=0;i--){
+                if(num&(1<<i))
+                        printf("1");
+                else
+                        printf("0");
+                if(i%8==0)
+                        printf(" ");
+        }
+        printf("\n");
+}
+```
+~   

@@ -4,7 +4,7 @@ In embedded systems, understanding how to manipulate **bits** is crucial. Comput
 
 ---
 
-## 🧠 Why Bitwise Operators?
+##  Why Bitwise Operators?
 
 Bitwise operators allow us to:
 - Check the **status** of individual bits (e.g., register flags)
@@ -14,7 +14,7 @@ Bitwise operators allow us to:
 
 ---
 
-## 🔧 Bitwise Operators in C
+##  Bitwise Operators in C
 
 | Operator | Symbol | Use Case                     |
 |----------|--------|------------------------------|
@@ -27,7 +27,7 @@ Bitwise operators allow us to:
 
 ---
 
-## ✅ AND (`&`) Operator
+##  AND (`&`) Operator
 
 
 The **AND** (`&`) operator returns `1` only if **both bits are 1**; otherwise, it returns `0`.
@@ -36,7 +36,7 @@ Usage in embedded system
 - checks is the status bit is high or not
 - clears the status bit to update the status.
 - 
-## 📊 AND Operator Truth Table
+##  AND Operator Truth Table
 
 | A (bit) | B (bit) | A & B |
 |---------|---------|--------|
@@ -50,7 +50,7 @@ Used to **check** or **clear** specific bits.
 
 
 
-### ✅ Example 1: Check if a Bit is Set
+### Example 1: Check if a Bit is Set
 
 ```c
 #include<stdio.h>
@@ -87,7 +87,7 @@ void display(int num){
     printf("\n");
 }
 ```
-### ✅ Example 2: clearing a specific bit in a number
+###  Example 2: clearing a specific bit in a number
 ```c
 #include<stdio.h>
 
@@ -118,9 +118,9 @@ void display(int x){
         printf("\n");
 }
 ```
-## ✅ OR (`|`) Operator
+##  OR (`|`) Operator
 
-## 📊 OR Operator Truth Table
+##  OR Operator Truth Table
 
 The **OR** (`|`) operator returns `1` if **at least one bit is 1**; otherwise, it returns `0`.
 
@@ -167,7 +167,7 @@ void display(int num){
         printf("\n");
 }
 ```
-### 📌 Bit Fields in C - Key Points
+###  Bit Fields in C - Key Points
 
 1. **Definition**:  
    Bit fields allow struct members to be allocated with a specific number of bits, enabling memory-efficient representation of data with limited range.
